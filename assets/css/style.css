@@ -311,7 +311,7 @@ h6 {
 }
 
 #hero p span {
-  color: #fdda5a;
+  color: #ff8e04;
   letter-spacing: 1px;
 }
 
@@ -404,7 +404,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #ff8e04;
 }
 
 .about .content ul {
@@ -508,7 +508,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #fdda5a;
+  background-color: #ff8e04;
 }
 
 /*--------------------------------------------------------------
@@ -541,7 +541,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  background: #ff8e04;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
