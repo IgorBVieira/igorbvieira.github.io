@@ -250,4 +250,20 @@
    */
   new PureCounter();
 
+
+  // Show or hide the sticky footer button
+  on("click", "#credits-button", () => {
+    credits.style.display = "block";
+  });
+
+  on("mouseleave", "#credits-button", () => {
+    credits.style.display = 'none';
+  })
+
+  window.addEventListener('click', (event) => {
+    if (!event.target.matches('.credits') && !event.target.matches('#credits-button')) {
+      credits.style.display = 'none';
+    }
+  });
+
 })()
